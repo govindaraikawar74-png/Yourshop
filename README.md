@@ -1,2 +1,56 @@
 # Yourshop
 Just feels
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discreet Store</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #fff; padding: 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        .card img { width: 100%; height: 200px; object-fit: cover; background: #eee; margin-bottom: 10px; }
+        .price { font-weight: bold; color: #000; font-size: 1.2em; margin: 10px 0; }
+        .btn { background: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; }
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bliss Collection</h1>
+    <p>Premium Intimacy • Discreet Delivery</p>
+</header>
+
+<div class="container">
+    <div class="product-grid">
+        
+        <!-- Product 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/250x200?text=Vibrator+Pro" alt="Product 1">
+            <h3>Vibrator Pro</h3>
+            <p class="price">₹1,299</p>
+            <!-- Niche apna WhatsApp number daalna -->
+            <a href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20order%20Vibrator%20Pro" class="btn">Order on WhatsApp</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/250x200?text=Lube+Bottle" alt="Product 2">
+            <h3>Premium Lube</h3>
+            <p class="price">₹499</p>
+            <a href="https://wa.me/919876543210?text=Hi,%20I%20want%20to%20order%20Lube" class="btn">Order on WhatsApp</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Bliss Collection. No Email Used.
+</footer>
+
+</body>
+</html>
